@@ -1,0 +1,30 @@
+name: Static Analyzer
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+      
+      - name: Install pip dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install and set solc
+        run: |
+          solc-select install 0.8.10
+          solc-select use 0.8.10
+
+      - name: run analyzer
+        run: make analyze
