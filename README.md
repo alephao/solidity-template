@@ -21,9 +21,9 @@ Opinionated solidity template with too many tools.
 
 There are three GitHub Actions workflows configured.
 
-**Test**: Will run `make test`, running the unit-tests with forge.
-**Lint**: Will run `make lint`, running solhint and prettier.
-**Analyze**: Will run `make analyze`, running the slither analyzer.
+- **Test**: Will run `make test`, running the unit-tests with forge.
+- **Lint**: Will run `make lint`, running solhint and prettier.
+- **Analyze**: Will run `make analyze`, running the slither analyzer.
 
 ### Makefile Commands
 
