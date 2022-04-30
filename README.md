@@ -4,7 +4,7 @@ Opinionated solidity template with too many tools.
 
 **Tooling**
 
-- **[foundry](https://github.com/gakonst/foundry)'s `forge`** for building, testing, and gas snapshots
+- **[foundry](https://github.com/foundry-rs/foundry)'s `forge`** for building, testing, and gas snapshots
 - **[solhint](https://github.com/protofire/solhint)** for linting
 - **[slither](https://github.com/crytic/slither)** for static analysis and linting
 - **[solcery](https://github.com/alephao/solcery)** for code-generating type-safe errors for tests and error signature comments
@@ -14,7 +14,7 @@ Opinionated solidity template with too many tools.
 **Support Contracts**
 
 - **[ds-test](https://github.com/dapphub/ds-test)** for testing
-- **[forge-std](https://github.com/brockelmore/forge-std)** for HEVM interface and some type-safe evm errors
+- **[forge-std](https://github.com/foundry-rs/forge-std)** for HEVM interface and some type-safe evm errors
 
 ### Makefile Commands
 
