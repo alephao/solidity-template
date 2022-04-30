@@ -1,3 +1,7 @@
+.PHONY: build
+build:
+	forge build --force --optimize
+
 .PHONY: test
 test:
 	forge test --match-contract "UnitTest$$|E2ETest$$"
@@ -23,7 +27,10 @@ lint:
 analyze:
 	slither src/*.sol --config-file slither.config.json
 
-.PHONY: deploy
-deploy:
+.PHONY: typechain
+typechain:
 	yarn typechain
+
+.PHONY: deploy
+deploy: build typechain
 	yarn deploy

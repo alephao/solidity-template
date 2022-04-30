@@ -18,12 +18,15 @@ Opinionated solidity template with too many tools.
 
 ### Makefile Commands
 
+* **build**: force build with optimization
 * **test**: run only test contracts suffixed with `UnitTest`
 * **snapshot**: create .gas-snapshot, running only tests suffixed with `BenchmarkTest`
 * **codegen**: generate Errors.sol and error's sighash comments
 * **format**: format codebase using prettier
 * **lint**: lint using solhint
 * **analyze**: run analyzer (slither)
+* **typechain**: run analyzer (slither)
+* **deploy**: re-build, re-run typechain, and run deployment script `scripts/deploy.ts`
 
 ### Tests
 
