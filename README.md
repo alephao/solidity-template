@@ -8,6 +8,7 @@ Opinionated solidity template with too many tools.
 - **[solhint](https://github.com/protofire/solhint)** for linting
 - **[slither](https://github.com/crytic/slither)** for static analysis and linting
 - **[solcery](https://github.com/alephao/solcery)** for code-generating type-safe errors for tests and error signature comments
+- GitHub Actions CI with three workflows: test, lint, and analyze.
 - Makefile with common commands
 - Deployment script using typescript, ethersjs and typechain
 
@@ -15,6 +16,14 @@ Opinionated solidity template with too many tools.
 
 - **[ds-test](https://github.com/dapphub/ds-test)** for testing
 - **[forge-std](https://github.com/foundry-rs/forge-std)** for HEVM interface and some type-safe evm errors
+
+**CI**
+
+There are three GitHub Actions workflows configured.
+
+**Test**: Will run `make test`, running the unit-tests with forge.
+**Lint**: Will run `make lint`, running solhint and prettier.
+**Analyze**: Will run `make analyze`, running the slither analyzer.
 
 ### Makefile Commands
 
