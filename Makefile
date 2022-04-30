@@ -22,3 +22,8 @@ lint:
 .PHONY: analyze
 analyze:
 	slither src/*.sol --config-file slither.config.json
+
+.PHONY: deploy
+deploy:
+	yarn typechain
+	yarn deploy

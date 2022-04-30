@@ -8,6 +8,7 @@
     "lint": "yarn prettier && yarn solhint",
     "lint:check": "yarn prettier:check && yarn solhint:check",
     "prepare": "husky install",
+    "typechain": "typechain --target ethers-v5 --out-dir scripts/contracts out/**/*.json",
     "deploy": "ts-node scripts/deploy.ts"
   },
   "devDependencies": {
