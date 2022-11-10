@@ -8,4 +8,4 @@ library Errors {
         return abi.encodeWithSignature("ExampleError()");
     }
 }
-// solhint-enalbe const-name-snakecase
+// solhint-enable const-name-snakecase
