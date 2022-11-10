@@ -23,8 +23,8 @@ jobs:
 
       - name: Install and set solc
         run: |
-          solc-select install 0.8.10
-          solc-select use 0.8.10
+          solc-select install 0.8.17
+          solc-select use 0.8.17
 
       - name: run analyzer
         run: make analyze
