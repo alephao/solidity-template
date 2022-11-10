@@ -2,6 +2,12 @@
 
 Opinionated solidity template with too many tools.
 
+**Configuration**
+
+- Compile using solidity `0.8.17`
+- Imports relative to the root folder using `$` e.g.: `import "$/src/Contract.sol";`
+- Imports relative to lib fodler using `@` e.g.: `import "@ds-test/test.sol";`
+
 **Tooling**
 
 - **[foundry](https://github.com/foundry-rs/foundry)'s `forge`** for building, testing, and gas snapshots

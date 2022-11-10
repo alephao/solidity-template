@@ -3,7 +3,7 @@ pragma solidity >=0.8.4;
 
 import {TestBase} from "$/test/utils/TestBase.sol";
 
-contract ContractTest is TestBase {
+contract ContractUnitTest is TestBase {
     function setUp() public {
         assertTrue(true);
     }
