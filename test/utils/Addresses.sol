@@ -8,6 +8,8 @@ library Addresses {
   address constant public cassie = address(uint160(0xca551e));
   address constant public sofia = address(uint160(0x50F1a));
   address constant public bob = address(uint160(0xb0b));
+  address constant public bia = address(uint160(0xb1a));
+  address constant public baboo = address(uint160(0xbab00));
 }
 
 // Shortcut
@@ -17,5 +19,7 @@ library A {
   address constant public cassie = address(uint160(0xca551e));
   address constant public sofia = address(uint160(0x50F1a));
   address constant public bob = address(uint160(0xb0b));
+  address constant public bia = address(uint160(0xb1a));
+  address constant public baboo = address(uint160(0xbab00));
 }
 // solhint-enable const-name-snakecase
