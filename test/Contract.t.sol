@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity >=0.8.4;
 
-import {TestBase} from "$/test/utils/TestBase.sol";
+import {Test} from "@forge-std/Test.sol";
 
-contract ContractUnitTest is TestBase {
+contract ContractUnitTest is Test {
     function setUp() public {
         assertTrue(true);
     }
