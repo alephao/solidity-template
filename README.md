@@ -20,8 +20,7 @@ Opinionated solidity template with too many tools.
 
 **Support Contracts**
 
-- **[ds-test](https://github.com/dapphub/ds-test)** for testing
-- **[forge-std](https://github.com/foundry-rs/forge-std)** for HEVM interface and some type-safe evm errors
+- **[forge-std](https://github.com/foundry-rs/forge-std)**
 
 **CI**
 
