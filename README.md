@@ -2,6 +2,16 @@
 
 Opinionated solidity template with too many tools.
 
+```bash
+git clone --recurse-submodules https://github.com/alephao/solidity-template.git
+
+# Install python dependencies
+pip install -r requirements.txt -r scripts/solcery/requirements.txt
+
+# Install javascript dependencies
+yarn
+```
+
 **Configuration**
 
 - Compile using solidity `0.8.23`
